@@ -1,0 +1,36 @@
+body{
+    height:100vh;
+}
+.container{
+    position:relative;
+}
+.box{
+    position:relative;
+    width:40px;
+    height: 40px;
+    background-color:blueviolet;
+    animation-name:giro;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+.box_2{
+    position:absolute;
+    width:40px;
+    height:40px;
+    background-color:red;
+    z-index: -1;
+    top:0;
+    animation:movimientoDerecha 1s 2s infinite alternate;
+    animation-delay:2s;
+}
+
+@keyframes giro{
+    to{
+        transform:rotate(1turn);
+    }
+}
+@keyframes movimientoDerecha {
+    100%{
+        transform:translateX(50px);
+    }
+}

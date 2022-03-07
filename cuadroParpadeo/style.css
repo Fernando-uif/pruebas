@@ -1,0 +1,13 @@
+@keyframes parpadeo{
+    to{
+        background-color:#9593A2;
+    }
+    from{
+        background-color:#25223C;
+    }
+}
+.cuadro{
+    height:200px;
+    width:200px;
+    animation:parpadeo 1s infinite alternate;
+}

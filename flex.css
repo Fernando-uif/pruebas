@@ -1,0 +1,17 @@
+.containerDiv{
+    height: calc(100vh - 50px);
+    width: calc(100vw - 50px);
+    display:flex;
+    flex-direction: column;
+    position: relative;
+}
+.containerDiv .hijo-1, .hijo-2{
+    background-color:blue;
+    width:100px;
+    height:100px;
+    margin: 5px;
+}
+.hijo-2{
+    position:absolute;
+    align-self: flex-end;
+}
