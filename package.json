@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "name": "spread",
+  "version": "1.0.0",
+  "main": "01-calificacion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:sass": "node-sass gridConFloat/main.scss gridConFloat/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fernando-ui/Pruebas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fernando-ui/Pruebas/issues"
+  },
+  "homepage": "https://github.com/Fernando-ui/Pruebas#readme",
+  "description": ""
+}
