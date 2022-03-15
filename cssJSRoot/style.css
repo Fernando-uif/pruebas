@@ -1,0 +1,10 @@
+:root{
+    --color-verde:rgb(0,255,0);
+    --color-rojo:rgb(255,0,0);
+}
+
+.container{
+    background-color:var(--color-verde);
+    width:100px;
+    height:100px;
+}

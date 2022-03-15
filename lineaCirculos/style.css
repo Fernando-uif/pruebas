@@ -1,0 +1,24 @@
+.lineaContainer{
+    width:430px;
+    position:relative;
+    height:20px;
+}
+.circle{
+    background-color:#000;
+    border-radius: 50%;
+    height:20px;
+    width:20px;
+    position:absolute;
+}
+.linea-media{
+    position:absolute;
+    background-color:#000;
+    height:5px;
+    width:calc(100% - 10px);
+    left:5px;
+    top:calc(20px / 3);
+}
+
+.circle-2{
+    right:0;
+}

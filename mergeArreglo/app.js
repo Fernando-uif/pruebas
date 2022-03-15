@@ -64,7 +64,12 @@ let objeto2 = {
     estatura:1_8,
 }
 
-let resultanteObjeto = {...objeto, objeto2};
+let resultanteObjeto = {...objeto, ...objeto2};
+console.log(resultanteObjeto,'Tenemos el objeto combinado');
+
+let resultanteObjeto11 = {...objeto, objeto2};
+console.log(resultanteObjeto11,'Tenemos el objeto sumado a otro, mas no con merge');
+
 
 // * ---------------------------------------
 // ! dentro de arreglo no se puede hacer merge, de un arr y un obj
@@ -82,6 +87,7 @@ let objArregl2 = {
     apellido:'sosa',
 }
 let resultanteObjArr2 = { ...arregloOb2, ...objArregl2};
+let resultanteObjArr22 = { ...arregloOb2, objArregl2};
 // console.log(resultanteObjArr2);
 
 // * ---------------------------------------
@@ -107,9 +113,10 @@ let objArr5 = {
     nombre:'fer',
     apellido:'sosa'
 };
-let resultante11 = [...arregloObj5,objArr5];
+let resultante11 = [...arregloObj5, objArr5];
 console.log(resultante11);
 
 
-
+// * Cuando tenemos dos ...elemento ...elemento2 estos hacen Merge 
+// * Cuando tnemos ...elemento, elemento2 , los sumamos, se lo adicionamos
 
