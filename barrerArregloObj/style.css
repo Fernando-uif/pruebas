@@ -1,0 +1,13 @@
+:root {
+  --color-generico-boton: #000;
+  --color-generico-boton-2: #000;
+  --color-serverPack-Fuente: #000;
+  --color-serverPack-Secundario: #000;
+  --color-serverPack-Terciario: #000;
+}
+
+.container{
+    background-color:var(--color-generico-boton);
+    width:200px;
+    height:200px;
+}
