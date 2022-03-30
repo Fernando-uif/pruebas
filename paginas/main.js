@@ -1,7 +1,9 @@
 const route = (event) => {
-
+console.log(window.event);
+console.log(event);
     event = event || window.event;
     event.preventDefault();
+    console.log(event.target.href);
     window.history.pushState({}, "", event.target.href);
   handleLocation();
 
@@ -19,6 +21,7 @@ const routes = {
 const handleLocation = async() => {
 
     const path  = window.location.pathname;
+    console.log(window.location.pathname);
     const route = routes[path] || routes[404];
     const html = await fetch(route).then((data)=> data.text());
     document.querySelector('#main-page').innerHTML = html;
