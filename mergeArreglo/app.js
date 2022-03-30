@@ -65,10 +65,8 @@ let objeto2 = {
 }
 
 let resultanteObjeto = {...objeto, ...objeto2};
-console.log(resultanteObjeto,'Tenemos el objeto combinado');
 
 let resultanteObjeto11 = {...objeto, objeto2};
-console.log(resultanteObjeto11,'Tenemos el objeto sumado a otro, mas no con merge');
 
 
 // * ---------------------------------------
@@ -96,7 +94,6 @@ let arregloObj3 = ['palabra','palabra2'];
 let objArregl3 = ['palabra3','palabra4'];
 
 let resultanteObjeArr3 = { ...arregloObj3, ...objArregl3};
-console.log(resultanteObjeArr3);
 
 // * ------------------------------------------
 // ! No se puede juntar dos objetos dentro de un arreglo
@@ -114,9 +111,15 @@ let objArr5 = {
     apellido:'sosa'
 };
 let resultante11 = [...arregloObj5, objArr5];
-console.log(resultante11);
 
 
 // * Cuando tenemos dos ...elemento ...elemento2 estos hacen Merge 
 // * Cuando tnemos ...elemento, elemento2 , los sumamos, se lo adicionamos
 
+const objeta = {
+    payload:'informacion',
+    nombre:'fernando',
+    apellido:'sosa',
+}
+
+console.log({...objeta.payload, amigos:'hola', ...objeta});  
