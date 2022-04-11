@@ -1,0 +1,52 @@
+.containerZ{
+    position:relative;
+    background-color:brown;
+    width: 200px;
+    z-index: 20;
+    height:200px;
+}
+
+.item{
+    width:100px;
+    height:100px;
+    background-color:red;
+    margin:10px;
+    /* z-index: 20; */
+
+    position:relative;
+}
+.item1{
+    
+}
+.item2{
+    top:-53px;
+    background-color:gray;
+    z-index:10;
+}
+.item3{
+    top:-100px;
+    background-color:yellow;
+    z-index: 30;
+}
+
+
+.item4{
+    top:-150px;
+    background-color:green;
+}
+.container2{
+    position:relative;
+    background-color:blue;
+    width:200px;
+    height:200px;
+    top:-150px;
+    /* z-index:12000; */
+}
+
+.item5{
+    background-color:purple;
+    z-index:100;
+}
+.item6{
+    top:-150px;
+}
