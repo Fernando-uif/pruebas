@@ -1,0 +1,31 @@
+.containerToggle {
+  border-radius: 10px;
+  width: 40px;
+  height: 24px;
+  background-color: #eeeeee;
+  position: relative;
+  transition: background 0.5s, transform 0.5s ease;
+  cursor: pointer;
+}
+.container__toggle {
+  transition: background 0.5s, transform 0.5s ease;
+  border-radius: 50%;
+  background: #fff;
+  width: 16px;
+  position: absolute;
+  height: 16px;
+  top: 15%;
+  left: 10%;
+}
+.container__toggle-active {
+  transform: translateX(15px);
+  background: #e62800;
+}
+.container-active {
+  border-radius: 10px;
+  width: 40px;
+  height: 24px;
+  background-color: #f3a898;
+  position: relative;
+  cursor: pointer;
+}
