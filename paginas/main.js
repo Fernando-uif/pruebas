@@ -10,7 +10,7 @@ console.log(event);
 };
 
 const routes = {
-  "/":"/amigos.html",
+  "/personas.html":"/amigos.html",
   "/about":"/enemigos.html",
   "/lorem":"/lorem.html",
   404:"/404.html"

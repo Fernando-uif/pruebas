@@ -1,0 +1,16 @@
+
+body{
+    height:100vh;
+}
+.master{
+    display:flex;
+    width:800px;
+    height:800px;
+    flex-direction:column;
+}
+.hijo1,.hijo2,.hijo3{
+    background-color:red;
+    /* width:200px; */
+    height:200px;
+    margin:10px;
+}
