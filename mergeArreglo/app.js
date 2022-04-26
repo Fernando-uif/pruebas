@@ -122,4 +122,23 @@ const objeta = {
     apellido:'sosa',
 }
 
-console.log({...objeta.payload, amigos:'hola', ...objeta});  
+// console.log({...objeta.payload, amigos:'hola', ...objeta});  
+
+
+const objetoNuevo = {
+    nombre:'Fernando',
+    apellido:'Sosa Torres',
+    edad:26,
+}
+
+console.log({...objetoNuevo}); 
+
+
+const objetoContenido = ({...informacion}) => {
+
+    console.log({...informacion}, 'Tenemos la informacion');
+
+}
+
+objetoContenido({...objetoNuevo})
+

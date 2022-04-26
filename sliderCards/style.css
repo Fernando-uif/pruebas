@@ -1,0 +1,17 @@
+.container{
+    height:500px;
+    background-color:yellow;
+    overflow:scroll;
+}
+.container2{
+    width:400%;
+display:flex;
+background-color:brown;
+}
+.hijo1,.hijo2,.hijo3{
+    width:300px;
+    height:250px;
+    background-color:red;
+margin:5px;
+/* display:; */
+}
