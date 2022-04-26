@@ -1,0 +1,10 @@
+
+  
+  :is(header, main, footer) p:hover, span:hover {
+    color: red;
+    cursor: pointer;
+  }
+  :is(.container) span:hover{
+    color: blue;
+    padding: 20px;
+  }
