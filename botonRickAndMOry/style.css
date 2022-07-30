@@ -1,0 +1,14 @@
+/* 41B3C8 */
+.button{
+    border: 3px solid #41B3CB;
+    width:25px;
+    height:25px;
+    cursor:pointer;
+}
+.button__img{
+    text-align: center;
+    margin-top: calc(100% - 23px);
+}
+.button__img img{
+    width:20px;
+}
